@@ -12,6 +12,7 @@ const SpaceX = (props) => {
     const[filterRepo, setFilterRepo] = useState([]);
     const[searchRepo, setSerchRepo] = useState('');
     
+
     useEffect(() =>{
         const handleData = async () => {
             try{
@@ -34,6 +35,7 @@ const SpaceX = (props) => {
 
     useEffect(()=>{
         const lowerSearchRepo = searchRepo.toLowerCase();
+        document.title = searchRepo || "SpaceX Launches";
         setFilterRepo(
             repositories.filter(repo => {
                 return repo.name.toLowerCase().includes(lowerSearchRepo)
@@ -44,7 +46,7 @@ const SpaceX = (props) => {
     return(
         <div className="body">
             <h1 className="title">{props.children}</h1>
-            <input className="input" placeholder="Type here the launche name" onChange={event=>setSerchRepo(event.target.value)}/>
+            <input className="input" placeholder="Type here the launch name" onChange={event=>setSerchRepo(event.target.value)}/>
             <div className="main">
                 {filterRepo.map((repo) => (
                     <div className="card">
