@@ -23,3 +23,8 @@ Na aplicação, o usuario pode fazer uma busca para que apareça na tela apenas 
 ## 🔖 Lições aprendidas
 
 Neste projeto eu aprendi a usar mais de um useState e mais de um useEffect, componentização e axios.
+
+
+## 💻 Subindo o Projeto
+
+A aplicação foi hospedada no Netlify, neste [link](https://searchspacexlaunches.netlify.app/).
