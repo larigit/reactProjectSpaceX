@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="project" title="project" src=".src/assets/images/project.png" width="600"/>
+  <img alt="project" title="project" src="src/assets/images/working.gif" width="600"/>
 </h1>
 
 ## ✨ Tecnologias
