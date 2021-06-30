@@ -1,5 +1,7 @@
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissandradee/)](https://www.linkedin.com/in/larissandradee/)
+
 <h1 align="center">
-  <img alt="project" title="project" src="src/assets/images/working.gif" width="600"/>
+  <img alt="project" title="project" src="src/assets/images/working.gif" width="900"/>
 </h1>
 
 ## ✨ Tecnologias
